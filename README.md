@@ -1,1 +1,1 @@
-# effectivejava
+# effective-java
