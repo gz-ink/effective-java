@@ -27,9 +27,4 @@ public class FunctionalUtils {
         }
         return result;
     }
-
-
-    public static void add(int i, Runnable runnable) {
-        runnable.run();
-    }
 }

@@ -36,7 +36,7 @@ public class FunctionalUtilsTest {
     public void should_runnable_add_to_list() {
         List<Integer> list = new ArrayList<>();
         Runnable runnable = () -> list.add(3);
-        FunctionalUtils.add(3, runnable);
+        runnable.run();
         assertThat(list, is(Arrays.asList(3)));
     }
 }
